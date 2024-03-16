@@ -66,7 +66,6 @@ jobs:
           ignore-unfixed: true
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
->>>>>>> af3bd082a7c3bca0306f046f6b6bef3c6718bb0b
 
       - name: Push Docker image
         uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
